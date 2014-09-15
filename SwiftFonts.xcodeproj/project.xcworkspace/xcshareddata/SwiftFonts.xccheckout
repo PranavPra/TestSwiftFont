@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>4EC8A39D-919A-453C-911D-A4BA4A3C4A2F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SwiftFonts</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>334507A40532307A854B462580D99B0C85C91F0B</key>
+		<string>https://github.com/PranavPra/TestSwiftFont</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SwiftFonts.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>334507A40532307A854B462580D99B0C85C91F0B</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/PranavPra/TestSwiftFont</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>334507A40532307A854B462580D99B0C85C91F0B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>334507A40532307A854B462580D99B0C85C91F0B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TestSwiftFont</string>
+		</dict>
+	</array>
+</dict>
+</plist>
