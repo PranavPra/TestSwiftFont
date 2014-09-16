@@ -27,8 +27,8 @@ class MasterViewController: UITableViewController
         return self.viewModel.numberOfRowsInSection(section)
     }
 
-    override func tableView(tableView: UITableView!, cellForRowAtIndexPath indexPath: NSIndexPath!) -> UITableViewCell!
-    {
+    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        
         let cell = tableView.dequeueReusableCellWithIdentifier("cell", forIndexPath: indexPath) as UITableViewCell
         self.configureCell(cell, atIndexPath: indexPath);
         return cell
@@ -45,8 +45,8 @@ class MasterViewController: UITableViewController
     
     func configureCell(cell: UITableViewCell, atIndexPath indexPath: NSIndexPath)
     {
-        cell.textLabel.text = viewModel.titleAtIndexPath(indexPath)
-        cell.textLabel.font = self.fontAtIndexPath(indexPath)
+        cell.textLabel?.text = viewModel.titleAtIndexPath(indexPath)
+        cell.textLabel?.font = self.fontAtIndexPath(indexPath)
     }
     
     func fontAtIndexPath(indexPath: NSIndexPath) -> UIFont
